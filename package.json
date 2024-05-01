@@ -1,5 +1,5 @@
 {
-  "name": "root",
+  "name": "daal-monorepo",
   "private": true,
   "scripts": {
     "dev:user": "npx lerna run start:dev --scope=user",
