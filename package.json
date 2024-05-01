@@ -4,7 +4,7 @@
   "scripts": {
     "dev:user": "npx lerna run start:dev --scope=user",
     "dev:wallet": "npx lerna run start:dev --scope=wallet",
-    "dev": "concurrently \"npm run dev:user\" \"npm run dev:wallet\""
+    "dev": "concurrently \"npm run dev:user\" \"npm run dev:wallet\" -n"
   },
   "workspaces": [
     "apps/*",
